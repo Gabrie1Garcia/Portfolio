@@ -111,7 +111,6 @@ header {
     left: 80%;
 }
 
-
 .toggle {
     position: relative;
     left: 0;
@@ -180,6 +179,7 @@ header {
     font-weight: 500;
     border-radius: 4px;
     letter-spacing: 1px;
+    z-index: 1;
 }
 
 .sendB {
