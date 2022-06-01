@@ -426,7 +426,7 @@ hr {
 
 /* Tornando o site responsivo */
 
-@media (max-width: 991px) {
+@media (max-width: 1000px) {
     .sec {
         min-height: 100vh;
         padding: 40px;
@@ -438,7 +438,18 @@ hr {
         padding: 20px 40px; 
     }
 
+    .headerContact {
+        padding: 5px 4px; 
+    }
+
     .sec .imgBx {
+        width: 300px;
+        min-width: 300px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .projects {
         width: 300px;
         min-width: 300px;
         height: 300px;
@@ -484,5 +495,10 @@ hr {
     .navLink ul li a {
         font-size: 1.5em;
         margin-left: 50px;
+    }
+
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
