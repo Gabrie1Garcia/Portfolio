@@ -439,7 +439,7 @@ hr {
     }
 
     .headerContact {
-        padding: 5px 4px; 
+        padding: 10px 10px; 
     }
 
     .sec .imgBx {
@@ -500,5 +500,12 @@ hr {
     .project-container {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .hiddenD {
+        min-height: 50vh;
+        padding: 5px;
+        flex-direction: column;
+        justify-content: center;
     }
 }
