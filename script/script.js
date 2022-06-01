@@ -13,6 +13,6 @@ function show() {
 
 function hide() {
     document.querySelector('.hiddenD').style.display = 'none'; 
-}
+}   ; 
 
 
