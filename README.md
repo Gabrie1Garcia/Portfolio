@@ -1,4 +1,5 @@
 # Olá Mundo 🌎
+---
 
 Como estudante de Análise e Desenvolvimento de Sistemas na PUC Minas, venho participando de projetos e ganhando experiencia na área, gostaria de aprender muito mais e evoluir com vocês também. 
  
