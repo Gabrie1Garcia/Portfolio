@@ -1,18 +1,26 @@
 let menuToggle = document.querySelector('.toggle');
-let navigation = document.querySelector('.navigation')
-let sec = document.querySelector('.sec')
-menuToggle.onclick = function () {
-    menuToggle.classList.toggle('active')
-    navigation.classList.toggle('active')
-    sec.classList.toggle('active')
+let navigation = document.querySelector('.navigation');
+let sec = document.querySelector('.sec');
+let hiddenElement = document.querySelector('.hiddenD');
+
+if (menuToggle && navigation && sec) {
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        navigation.classList.toggle('active');
+        sec.classList.toggle('active');
+    });
 }
 
 function show() {
-    document.querySelector('.hiddenD').style.display = 'block'; 
+    if (hiddenElement) {
+        hiddenElement.style.display = 'block';
+    }
 }
 
 function hide() {
-    document.querySelector('.hiddenD').style.display = 'none'; 
-}   ; 
+    if (hiddenElement) {
+        hiddenElement.style.display = 'none';
+    }
+}
 
 
